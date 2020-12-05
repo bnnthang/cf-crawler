@@ -1,0 +1,8 @@
+{
+    "GNU C++17": "cpp",
+    "GNU C++14": "cpp",
+    "GNU C++11": "cpp",
+    "FPC": "pas",
+    "Python 3": "py",
+    "Java 11": "java"
+}

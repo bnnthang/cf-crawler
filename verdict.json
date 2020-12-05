@@ -1,0 +1,11 @@
+{
+    "Accepted": "AC",
+    "Wrong answer": "WA",
+    "Runtime error": "RE",
+    "Time limit exceeded": "TLE",
+    "Memory limit exceeded": "MLE",
+    "Compilation error": "CE",
+    "Hacked": "H",
+    "Rejected": "RJ",
+    "Idleness limit exceeded": "IDLE"
+}
