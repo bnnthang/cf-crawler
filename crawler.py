@@ -92,7 +92,8 @@ def scrape_page(page_url):
             details = list(submission_table[i].children)
             submission_id = str(details[1].text).strip()
             problem_url = str(details[7].find("a")["href"])
-            submission_url = "https://codeforces.com" + re.match("/contest/\d+", problem_url)[0] + "/submission/" + submission_id
+            contest_url = re.match("/contest/\d+", problem_url).group()
+            submission_url = f"https://codeforces.com{contest_url}/submission/{submission_id}"
             get_codefile(submission_url)
         except:
             pass
