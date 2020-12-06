@@ -1,5 +1,5 @@
 # cf-crawler
-Python script to crawl submissions on Codeforces
+Python script to crawl submissions on [Codeforces](https://codeforces.com/)
 
 
 ## Installation
@@ -20,6 +20,8 @@ pip install -r requirements.txt
 
 ## Usage
 
+`crawler.py` currently can only crawl public view-able submissions. That means submissions for some problems from gym, groups, or ICPC minor contests are excluded.
+
 Run `crawler.py` with Python interpreter:
 
 ```
@@ -31,3 +33,5 @@ To get only `Accepted` submissions:
 ```
 python crawler.py -ac <handle1> <handle2> <etc.>
 ```
+
+In the end, submissions of different handles will be separated in different folders accordingly.
