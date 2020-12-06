@@ -1,11 +1,17 @@
 {
     "Accepted": "AC",
-    "Wrong answer": "WA",
-    "Runtime error": "RE",
-    "Time limit exceeded": "TLE",
-    "Memory limit exceeded": "MLE",
     "Compilation error": "CE",
     "Hacked": "H",
+    "Idleness limit exceeded": "IDLE",
+    "Memory limit exceeded": "MLE",
     "Rejected": "RJ",
-    "Idleness limit exceeded": "IDLE"
+    "Runtime error": "RE",
+    "Skipped": "S",
+    "Time limit exceeded": "TLE",
+    "Wrong answer": "WA",
+    "Judgement failed": "JF",
+    "Presentation error": "PE",
+    "Security violated": "SEC",
+    "Denial of judgement": "DEC",
+    "Input presentation failed": "IPF"
 }
