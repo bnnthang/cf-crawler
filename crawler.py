@@ -5,6 +5,7 @@ import json
 import os
 import re
 import requests
+import random
 import sys
 import time
 from bs4 import BeautifulSoup
@@ -38,8 +39,8 @@ def shorten_verdict(verdict):
 
 def send_request(url):
     request = requests.get(url)
-    # delay 0.3s for each request
-    time.sleep(0.3)
+    # delay a random period for each request
+    time.sleep(random.randint(1, 3))
     return BeautifulSoup(request.text, "html.parser")
 
 
